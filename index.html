@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDbQFQ5Enc_tyJ4hQCH2Vf5EcUL7LsGxrU",
+    authDomain: "car-game-e929f.firebaseapp.com",
+    databaseURL: "https://car-game-e929f-default-rtdb.firebaseio.com",
+    projectId: "car-game-e929f",
+    storageBucket: "car-game-e929f.appspot.com",
+    messagingSenderId: "483823146310",
+    appId: "1:483823146310:web:2a1a520ed6c5b31b4e0147"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+    <script src="form.js"></script>
+    <script src="player.js"></script>
+    <script src="game.js"></script>
+  </body>
+</html>
